@@ -2,8 +2,8 @@ import { gotScraping } from 'got-scraping';
 import express from 'express';
 
 const spuId = '1079';
-const url = `https://prod-global-api.popmart.com/shop/v1/shop/productDetails?spuId=${spuId}&s=a2a1d39bfbaeb0e247e7c2cd2c6787f3&t=1719257678`;
-const discordWebhookUrl = 'https://discord.com/api/webhooks/1254905672429080698/dt0KixVUoCC3WvkMSNMrwBFc6vv8DX-kR8T9e4TBO3QE5RAXgT0suG92ovzSvXHdcnba'; //webhook go here
+const url = `https://www.popmart.com/sg/products/1149/LABUBU-HIDE-AND-SEEK-IN-SINGAPORE-SERIES-Vinyl-Plush-Doll-Pendant`;
+const discordWebhookUrl = 'https://discord.com/api/webhooks/1309097373498343505/65s1Up6u6I3Z2XAttmS8QFVo7cXwMy7-drwLFfJn3mYrJvsRg9uJrbk_cPfOwVHhcYRp'; //webhook go here
 
 const headers = {
   accept: 'application/json, text/plain, */*',
@@ -96,7 +96,7 @@ async function sendDiscordMessage(message, imageUrl) {
             fields: [
               {
                 name: 'Product URL',
-                value: `https://www.popmart.com/us/products/1079/crybaby-%C3%97-powerpuff-girls-series-vinyl-face-plush-blind-box`,
+                value: `https://www.popmart.com/sg/products/1149/LABUBU-HIDE-AND-SEEK-IN-SINGAPORE-SERIES-Vinyl-Plush-Doll-Pendant`,
               },
             ],
             image: {
